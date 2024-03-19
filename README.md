@@ -4,7 +4,7 @@ Alzheimer's is a devastating neurodegenerative disease that affects millions of 
 <br /> <br />
 
 <h1>Launching instructons</h1>
-To launch the code in google colab please follow these instructions:<br /> <br />
+<h3>To launch the code in google colab please follow these instructions:</h3>
 
 1- Downlaod the Alzheimer dataset <br /><br />
 ![capture3](https://github.com/arwakhalidw/2024-GP-Group6/assets/143386775/deeb612c-7bc9-4873-ab94-d60df79c390f)
