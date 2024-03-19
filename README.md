@@ -6,7 +6,11 @@ Launching instructons <br /> <br />
 To launch the code in google colab please follow these instructions:<br /> <br />
 1- Downlaod the Alzheimer dataset: <br />
 <p align="center">
-  <img src=""C:\Users\arwa_\OneDrive\Pictures\capture3.bmp"" width="350" title="download dataset">
+  <img src="C:\Users\arwa_\OneDrive\Pictures\capture3.bmp" width="350" title="download dataset">
 </p>
  <br />
- 2- Click on the 
+ 2- Click on the AlzheimerPredictor.ipynb
+<p align="center">
+  <img src="C:\Users\arwa_\OneDrive\Pictures\capture1.bmp" width="350" title="download dataset">
+</p>
+ <br />
