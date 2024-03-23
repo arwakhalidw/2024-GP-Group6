@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+::selection{
+  background: #8e44ad;
+  color: #fff;
+}
+
+.box {
+  width: 50%; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.box table {
+  margin-bottom: 20px; 
+}
+
+.btns button {
+  background: #8e44ad;
+  padding: 9px 20px;
+  outline: none;
+  border: 2px solid #8e44ad;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s linear;
+ 
+}
+
+.btns{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+
+.container-ser{
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.container-ser .box{
+  width: calc(33% - 10px);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.box .quote i{
+margin-top: 10px;
+font-size: 45px;
+color: #17c0eb
+}
+.container-ser .box .image{
+  margin: 10px 0;
+  height: 100px;
+  width: 100px;
+  background: white;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.box .image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8e44ad;
+}
+.box p{
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box .service-name{
+  margin: 10px 0 3px 0;
+  color: #8e44ad;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+@media (max-width:1045px){
+  .container-ser .box{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:710px){
+  .container-ser .box{
+    width: 100%;
+  }
+}
+
+form .button {
+  display: flex;
+  justify-content: center; 
+}
+
+form .button .update-button {
+  height: 45px;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button .update-button:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
